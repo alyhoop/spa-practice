@@ -1,24 +1,20 @@
-import React from 'react';
-import './index.css';
+import React, { Component } from 'react'
 
-function Main() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class Main extends Component() {
+  render(){
+    return (
+      <div className="Main">
+        <h1>Simple SPA</h1>
+        <ul className="header">
+          <li><a href="/">Home</a></li>
+          <li><a href="/stuff">Stuff</a></li>
+          <li><a href="/content">Content</a></li>
+        </ul>
+        <div className="content">
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Main;
