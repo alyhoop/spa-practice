@@ -1,7 +1,8 @@
 import React from 'react';
-import './App.css';
+import ReactDOM from 'react-dom';
+import './index.css';
 
-function App() {
+function Main() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Main;
