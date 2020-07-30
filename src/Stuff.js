@@ -2,7 +2,7 @@ import React from 'react'
 
 const Stuff = () => {
   return (
-    <div>MyComponent</div>
+    <div>diffferent harharha</div>
   )
 }
 
