@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate": "rc-autocomplete"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.5.0"
+    "eslint": "^7.5.0",
+    "react-autocomplete-cli": "0.0.3"
   }
 }
